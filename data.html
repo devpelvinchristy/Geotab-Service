@@ -1,0 +1,2721 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8"> <![endif]-->
+<!--[if IE 9 ]><html class="ie ie9"> <![endif]-->
+<!--[if gte IE 10]><html class="ie ie10"> <![endif]-->
+<!--[if !IE]><!--> <html> <!--<![endif]-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--[if lt IE 7 ]><html class="ie ie6"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8"> <![endif]-->
+<!--[if IE 9 ]><html class="ie ie9"> <![endif]-->
+<!--[if gte IE 10]><html class="ie ie10"> <![endif]-->
+<!--[if !IE]><!--> <html> <!--<![endif]-->
+<head>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=IE8" />
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+
+
+<link rel="stylesheet" type="text/css" href="/Portal/precss/base.css?v=10-03-2021-1958" />
+
+<link rel="stylesheet" href="/Portal/javascript/OpenLayers-213/theme/default/style.css" type="text/css" />
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700italic,700,900,900italic" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+
+  <meta name="viewport" content="width=1000" />
+
+<link rel="shortcut icon" href="/Portal/favico.ico" />
+
+<style>
+#logindetails {
+    margin-right:60px;
+    margin-bottom:6px;
+}
+</style>
+
+
+    
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-2302287-2']);
+            _gaq.push(['_trackPageview']);
+            _gaq.push(['_trackPageLoadTime']);
+            _gaq.push(['_setSiteSpeedSampleRate', 5]);
+            _gaq.push(['_setCustomVar',1,'org_common_identifier','Eroad&#32;Sales&#32;Dept1250197643134',1]);
+            _gaq.push(['_setCustomVar',2,'usr_common_identifier','michael&#64;directsafety&#46;co&#46;nz1600058690684',1]);
+
+        </script>
+    
+
+
+
+
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    var jsContextPath = "/Portal";
+    var orgdriveridmodule, messagingEnabled, expandMessages;
+    var orgeboxnumber = 0;
+    orgdriveridmodule = true;
+    
+    
+    messagingEnabled = true
+    
+    
+    var newmessagesoundenabled = "";
+    expandMessages = true;
+    orgeboxnumber = 34;
+    
+    
+    
+    
+    var addresssearchenabled = true;
+    var addresssearchservice = 'GEOSMART';
+    var defaultMapcenterLong = 172;
+    var defaultMapcenterLat = -41;
+    var oregontaxenabled = false;
+    var nzrucenabled = true;
+    var orglocale = "";
+    var maxGpsAccuracy = 25;
+    var galoti = false;
+    
+    
+    galoti = true;
+    
+    
+    var prefid = "356571";
+    var hideAdmin = true;
+    var isRucUser = false;
+    
+    
+    
+    isRucUser = true;
+    
+
+    var cusorgcid = "Eroad&amp;#32;Sales&amp;#32;Dept1250197643134";
+    var csts = new Date().getTime();
+    var csto = 7200;
+    var cwrn = 600;
+    var pint = 40;
+    var pint_focused = 40;
+    var pint_blurred = 150;
+    var csrn = csto;
+    
+
+    
+
+    var geofenceGenErrorMessage = "There may have been a problem saving this geofence, please try again.";
+
+    function addBaseLayers() {
+      var layArray = [];
+      jQuery.each(layArray, function(key, value) {
+        try {
+          map.addLayer(eval(value));
+        } catch (err) {
+        };
+      });
+    }
+
+    function escapeCharacters(str) {
+        return String(str)
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&apos;');
+    }
+
+    var localeDistanceUnits = 'km';
+    var localeSpeedUnits = 'km/h';
+
+  </script>
+
+  <script type="text/javascript" src="/Portal/javascript/jquery183-combo.min.js?v=10-03-2021-1958"></script>
+  <script type="text/javascript" src="/Portal/javascript/main.js?v=10-03-2021-1958"></script>
+  <script type="text/javascript" src="/Portal/prejs/main.js?v=10-03-2021-1958"></script>
+  <script type="text/javascript" src="/Portal/javascript/grid-ui-plugins.js?v=10-03-2021-1958"></script>
+  <script type="text/javascript" src="/Portal/javascript/metrics.js?v=10-03-2021-1958"></script>
+
+
+
+
+  
+  <script type="text/javascript">
+  (function() {
+    try {
+      var ga = document.createElement('script');
+      ga.type = 'text/javascript';
+      ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(ga, s);
+    } catch (err) {
+    }
+  })();
+  </script>
+
+
+
+<script id="payload">
+  (function() {
+    var payload = {
+      user: {
+        firstName: "Michael",
+        lastName: "Curlett",
+        username: "michael&#64;directsafety&#46;co&#46;nz",
+        id: "michael&#64;directsafety&#46;co&#46;nz1600058690684",
+        parentOrgId: "Eroad&#32;Sales&#32;Dept1250197643134",
+        createdAt: "Mon Sep 14 04:44:50 GMT 2020",
+        gid: "d14246ac-742f-4e5b-9975-0d1988d406f3",
+        is: {
+          eroad: false,
+          subOrg: false,
+          hasAllFleetAccess: false
+        },
+        role: {
+          clientAdmin: false,
+          ehuboAdmin: false,
+          fleetManager: true,
+          reportingUser: true,
+          rucUser: true,
+          service: true,
+          superBasic: true,
+          driver: false,
+          dispatchUser: true,
+          user: true
+        },
+        userTimezone: "Pacific/Auckland",
+        userLocale: "en_NZ",
+        email: "michael@directsafety.co.nz",
+        isAPAC: true,
+        isNA: false
+      },
+      org: {
+        id: "Eroad Sales Dept1250197643134",
+        gid: "",
+        country: "New Zealand",
+        createdAt: "Thu Aug 13 21:07:23 GMT 2009",
+        name: "Eroad Sales Dept",
+        timezone: "Pacific/Auckland",
+        locale: "en_NZ",
+        casualAccount: false,
+        hosCycle: "",
+        has: {
+          avl: true,
+          sharing: true,
+          fuelManagement: true,
+          allFleetOption: true,
+          messaging: true,
+          scheduledReporting: true,
+          hirail: false,
+          nzRuc: true,
+          mileageTax: false,
+          ifta: false,
+          irp: false,
+          service: true,
+          trailers: false,
+          ipSecurity: false,
+          logbook: true,
+          driverBehaviour: true,
+          multipleTimezones: true,
+          analytics: true,
+          retrospectiveGeofence: true,
+          activeIncomingShares: true,
+          thirdPartyDataFeed: true,
+          
+            intercom: true,
+          
+          vehicles: true,
+          inspectBasic: true,
+          dvirHealthAccess: true,
+          eld: false
+        }
+      }
+    };
+
+      if ('New Zealand' == 'United States') {
+          payload.org.has.intercom = false;
+      }
+
+      try {
+      window.sessionStorage.setItem("user", JSON.stringify(payload));
+      document.getElementById("payload").remove();
+    } catch (e) {
+      console.warn("Error saving to sessionStorage", e);
+    }
+  })();
+</script>
+
+
+
+
+  <script type="text/javascript">
+    if (("prod" === "prod" || "prod" === "na" || "Eroad Sales Dept1250197643134" === "EROAD" || "Eroad Sales Dept1250197643134" === "OregonTest1358375460255" || "Eroad Sales Dept1250197643134" === "FunctionalTesting1287688296666" || "Eroad Sales Dept1250197643134" === "Matts ORg1234327401680" || "Eroad Sales Dept1250197643134" === "HookerPacific1292900618974" || location.href.indexOf('enableAnalytics=true') > 0) && "Eroad Sales Dept1250197643134" !== "ABCSupplyCompany1518111817169" && "Eroad Sales Dept1250197643134" !== "O-0000034684" && "Eroad Sales Dept1250197643134" !== "O-0000004803") {
+      !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.1.0";
+      analytics.load("skJvKiodwKzJtEVgrm61079cZ1cNza1y");
+      analytics.page()
+      }}();
+    }
+  </script>
+
+
+
+    <script>
+            (function(apiKey){
+                (function(p,e,n,d,o){var v,w,x,y,z;o=p[d]=p[d]||{};o._q=[];
+                    v=['initialize','identify','updateOptions','pageLoad'];for(w=0,x=v.length;w<x;++w)(function (m){
+                        o[m]=o[m]||function(){o._q[m===v[0]?'unshift':'push']([m].concat([].slice.call(arguments,0)));};})(v[w]);
+                    y=e.createElement(n);y.async=!0;y.src='https://cdn.pendo.io/agent/static/'+apiKey+'/pendo.js';
+                    z=e.getElementsByTagName(n)[0];z.parentNode.insertBefore(y,z);})(window,document,'script','pendo');
+
+                var PENDO_INTIALISATION_DATA = {
+                    visitor: {
+                        gid: 'd14246ac-742f-4e5b-9975-0d1988d406f3',
+                        firstName: 'Michael',
+                        lastName: 'Curlett',
+                        username: 'michael&#64;directsafety&#46;co&#46;nz',
+                        email: 'michael@directsafety.co.nz',
+
+                        // We shouldn't ultimately be surfacing these following attributes, but this
+                        // will currently require a lot of pendo stakeholder notification to change.
+                        id: 'michael&#64;directsafety&#46;co&#46;nz1600058690684',
+                        user_id: 'michael&#64;directsafety&#46;co&#46;nz1600058690684',
+                        clientAdminRole: false,
+                        ehuboAdminRole: false,
+                        fleetManagerRole: true,
+                        reportingUserRole: true,
+                        rucUserRole: true,
+                        serviceRole: true,
+                        superBasicRole: true,
+                        driverRole: false,
+                        dispatchUserRole: true,
+                        userRole: true
+                    },
+                    account: {
+                        gid: '',
+                        name: escapeCharacters("Eroad Sales Dept"),
+                        country: 'New Zealand',
+
+                        // We shouldn't ultimately be surfacing this attribute, but this
+                        // will currently require a lot of pendo stakeholder notification to change.
+                        id: 'Eroad Sales Dept1250197643134',
+                    }
+                }
+
+                pendo.initialize(PENDO_INTIALISATION_DATA);
+
+                // MyEROAD will post a message requesting the pendo data, to which we here respond
+                // with a message with the pendo data.
+                var messageListener = window.addEventListener("message", function(event) {
+                  if (event.data.type === "myeroad" && event.data.action === "requestPendoData") {
+                    var myEroadIframe = document.getElementById("myeroadIFrame").contentWindow;
+
+                    myEroadIframe.postMessage(
+                      {
+                        action: "sendPendoData",
+                        payload: PENDO_INTIALISATION_DATA,
+                        type: "myeroad"
+                      },
+                      "*"
+                    );
+
+                    if (window.removeEventListener) {
+                      window.removeEventListener("message", messageListener);
+                    }
+                  }
+                });
+            })('3e314e78-adbb-41cb-5dd4-f3ae41138099');
+    </script>
+
+
+
+
+
+
+    <!-- Declaration of (localisation) global variables to be accessible by .js files -->
+    <!-- NOTE (As of 15/12/2016) this code isn't loaded with pages featuring Material Design (e.g. /driver/driverhome)  -->
+    <script>
+      var localeDistanceUnits = 'km';
+      var localeSpeedUnits = 'km/h';
+      var localeCalendarFirstDay = 1;
+    </script>
+
+    <!-- Serve from static.eroad.com once available -->
+    <script type="text/javascript" src="/Portal/components/vendor.dll.min.js?v=10-03-2021-1958"></script>
+    <script type="text/javascript" src="/Portal/components/global.bundle.js?v=10-03-2021-1958"></script>
+
+
+    <title>EROAD Depot - Service</title>
+
+    
+    
+    
+    
+
+    <link rel="stylesheet" type="text/css" href="/Portal/css/chosen/chosen.min.css?v=10-03-2021-1958"/>
+</head>
+
+<body class="serviceHome">
+    <div id="pageloading">
+    <img class="" height="16" width="16" alt="loading/" src="/Portal/images/eroadicons/loading.gif" />
+    <span>Loading page...</span>
+</div>
+<div id="unsupportedBrowserBar" style="display:none">Your browser is no longer supported by Depot. Please use a different browser to ensure the EROAD Depot works as designed. <a class="inlinetooltip" id="toolbarHelp" title="Depot Help" href="/Portal/help/helpPanel?topic=unsupportedbrowser" rel="/Portal/help/helpPanel?topic=unsupportedbrowser" ><img src="/Portal/images/eroadicons/help.png" width="21" height="21" alt="Help"/></a>
+                                        <br/><a href="https://help.eroad.com/nz-supportedbrowsers/">Choose a supported browser </a></div>
+<div class="eroadModalWindow modalwin" id="sendMessageModal"></div>
+<div class="eroadModalWindow modalwin" id="scheduleModal"></div>
+<div class="eroadModalWindow modalwin" id="videoModal"></div>
+<div class="eroadModalWindow modalwin" id="selectListModal"></div>
+<div class="hide getContextPath">/Portal</div>
+
+<audio id="messagesound1" >
+  <source src="/Portal/images/common/eroadSound1.ogg" type="audio/ogg" />
+  <source src="/Portal/images/common/eroadSound1.mp3" type="audio/mpeg" />
+</audio>
+<audio id="messagesound2" >
+  <source src="/Portal/images/common/eroadSound2.ogg" type="audio/ogg" />
+  <source src="/Portal/images/common/eroadSound2.mp3" type="audio/mpeg" />
+</audio>
+
+<section id="eroad-app-action-center" class="main"></section>
+
+    <div class="eroadModalWindow modalwin" id="scheduleServiceModal"></div>
+    <div class="eroadModalWindow modalwin" id="supplierEditModal"></div>
+    <div class="eroadModalWindow modalwin" id="serviceTypeEditModal"></div>
+    <div class="eroadModalWindow modalwin" id="updateVhubo"></div>
+    <div class="eroadModalWindow modalwin" id="updateEngineHours"></div>
+    <div class="eroadModalWindow modalwin" id="addEditServiceTaskModal"></div>
+
+    <div id="container" class="container">
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    function openDropdownAdminPageWithMetrics(url) {
+        var pageName = url.substring(url.lastIndexOf('/') + 1);
+        metrics.track(metrics.events.CLICKED_DROPDOWN_ADMIN_MENU, { pageName: pageName });
+        menuGotopage(jsContextPath + url);
+    }
+</script>
+
+
+
+
+    
+        
+    
+    
+
+
+<nav class="type02 settingMenu" id="bannerMenu" data-user="michael&#64;directsafety&#46;co&#46;nz">
+    <ul class="menu_body">
+        
+            <li>
+                <a title="Go to administration home page"  id="showManageMenu" href="javascript:openDropdownAdminPageWithMetrics('/admin/adminhelp')">
+                    
+                        <span class="icon-small arrow-left-black"></span>
+                    
+                    Administration
+                </a>
+            </li>
+        
+        
+            
+                <li class="seperator"><a class="hideSub" href="javascript:makemyhomepage()">Make this my default page</a></li>
+            
+        
+        
+        
+            <li class="seperator">
+                <a class="hideSub myProfile" href="javascript:openDropdownAdminPageWithMetrics('/admin/myprofile')">
+                    <span>Go to my profile</span>
+                    <span class="myProfileInfo myProfileName">Michael Curlett</span>
+                    <span class="myProfileInfo myProfileOrg">Eroad Sales Dept</span>
+                </a>
+            </li>
+        
+        
+
+        
+            
+                <li id="menumobileruclink" class="seperator">
+                    <a class="hideSub" href="/Portal/myeroad/activity" title="Switch to Mobile RUC Website">Go to mobile site</a>
+                </li>
+            
+        
+        <li class="seperator">
+        	
+	        <form id="logout-form" name="logout" action="/Portal/logout" method="POST">
+	        	<a class="hideSub" href="#" onclick="logoutEverywhere('logout-form')" title="Log out of EROAD Depot">Log out</a>
+	        <input type="hidden" name="_csrf" value="19a5f0b9-99bf-4088-9685-8edff6f5f51e" />
+</form>
+        </li>
+    </ul>
+</nav>
+
+<nav class="type02" id="bannerManageMenu">
+    <ul class="menu_body">
+        
+
+        
+
+        
+
+        
+            <li><a class="showAdminSub" href="javascript:openDropdownAdminPageWithMetrics('/admin/machinemanagement/findmachine')">Vehicles / Assets</a></li>
+        
+
+        
+            <li><a class="showAdminSub" href="javascript:openDropdownAdminPageWithMetrics('/fleetmanagement/fleetmgmt')">Groups (Fleets)</a></li>
+        
+
+        
+            
+                <li><a class="showAdminSub" href="javascript:openDropdownAdminPageWithMetrics('/admin/machinemanagement/vehicleprofile')">Vehicle Profiles</a></li>
+            
+        
+
+        
+
+        
+        
+            
+                
+                    <li><a class="showAdminSub" href="javascript:openDropdownAdminPageWithMetrics('/geofence/managegeofences')">Geofences</a></li>
+                
+            
+        
+
+        
+            
+        
+
+        
+            
+        
+
+        
+            <li><a class="showAdminSub" href="javascript:openDropdownAdminPageWithMetrics('/admin/notification')">Notifications</a></li>
+        
+
+        
+            
+                <li><a class="showAdminSub" href="javascript:openDropdownAdminPageWithMetrics('/report/faultreport/show')">Ehubo Audit Reports</a></li>
+            
+        
+
+        
+            
+                <li><a class="showAdminSub" href="javascript:openDropdownAdminPageWithMetrics('/mobiledevice/findmobiledevices')">Mobile Devices</a></li>
+            
+        
+
+        
+
+        
+
+        
+    </ul>
+</nav>
+
+
+<div class="panel type07 gutter5" id="sessionTimeoutWarning">
+    Session Timeout Warning - Click to renew your session
+</div>
+
+<header id="header" class="pageHeader" >
+
+    
+        <input type="checkbox" id="toggle-menu" name="toggle-menu">
+        <label for="toggle-menu" class="toggle-menu"></label>
+    
+    <div class="panel content">
+        <strong class="logo">
+            <a title="Go to your Default Page" id="eroadlogo" href="/Portal/tracking/landing"><img src="/Portal/preimages/logos/header_logo.png" class="logo" alt="EROAD"/></a>
+        </strong>
+        
+        <nav class="mainNav">
+            
+
+<style type="text/css">
+#header, #footer, #nav_administration, #serviceSidenav, #inspectMenu, #unidentifiedTripsMenu, #tax-menu, #fbt-menu {
+    display: none;
+}
+</style>
+<script type="text/javascript">
+    jQuery(document).ready(function () {
+        if (self != top) {
+            //Legacy pages wrapper
+            jQuery('#wrapper').css('position', 'static');
+            jQuery('.content.main').css('position', 'static')
+            jQuery('.content.main').css('top', '0')
+
+            //Driver page
+            jQuery('#web-app-driver > div').css('padding-top', '0');
+
+            //Driver page side menu handling
+            jQuery('#unidentifiedTripsContainer').css('position', 'static');
+            jQuery('#unidentifiedTripsContainer > div').css('padding-top', '0');
+
+            //Reports page
+            jQuery('#app-reports > div h1').eq(0).css('margin-top', '0');
+            jQuery('#app-reports > div').css('padding-top', '0');
+
+            //Proof of Service
+            jQuery('#proofOfServiceContainer').css('padding-top', '0');
+
+            //Admin section pages side manu handling
+            jQuery('#adminRightCol').css('position', 'static');
+            jQuery('.adminRightCol').css('position', 'static');
+
+            //FBT side menu handling
+            jQuery('#fringeBenefitsTaxContainer').css('position', 'static');
+            jQuery('#fringeBenefitsTaxContainer > div > div > div > div > div').css('padding-top', '0');
+            jQuery('#fringeBenefitsTaxContainer > div > div > div > div > div').css('margin-top', '0');
+
+            //Inspect side menu handling
+            jQuery('#healthContainer').css('position', 'static');
+            jQuery('#healthContainer div').css('padding-top', '0');
+            jQuery('#healthContainer div').css('margin-top', '0');
+
+            window.parent.postMessage(
+                {
+                    url: window.location.href.replace(window.location.origin, ''),
+                    type: "depot",
+                    action: "sendUrlLocation",
+                },
+                "*"
+            );
+        } else {
+            jQuery('#header').css('display', 'block');
+            jQuery('#footer').css('display', 'block');
+            jQuery('#inspectMenu').css('display', 'block');
+            jQuery('#nav_administration').css('display', 'block');
+            jQuery('#serviceSidenav').css('display', 'block');
+            jQuery('#unidentifiedTripsMenu').css('display', 'block');
+            jQuery('#tax-menu').css('display', 'block');
+            jQuery('#fbt-menu').css('display', 'block');
+        }
+    });
+</script>
+
+
+
+
+    
+        
+    
+    
+
+
+
+
+
+    
+    
+        
+    
+
+
+
+    <ul id="mainNav">
+
+        
+            
+                <li class="sec_generic">
+                    
+                        
+                            <a class="jsGotoPage " href="/Portal/myeroad/dashboard">Dashboard</a>
+                        
+                        
+                    
+                </li>
+            
+        
+
+        
+
+        
+            
+                
+                <li class="sec_generic"> <a class="jsGotoPage " href="/Portal/myeroad/activity">Activity</a></li>
+            
+        
+
+        
+            
+                <li class="sec_generic" > <a class="jsGotoPage " href="/Portal/ruc/rucsummary">RUC</a></li>
+            
+        
+
+        
+
+        
+
+        
+            
+                <li class="sec_generic"><a class="jsGotoPage  current " href="/Portal/machinemaintenance/servicehome">Service</a></li>
+            
+        
+
+        
+            
+                <li class="sec_generic"><a class="jsGotoPage " href="/Portal/dvir/healthmanagement">Inspect</a></li>
+            
+        
+
+        
+            <li class="sec_generic"><a class="jsGotoPage " href="/Portal/driver/driverhome/drivers">Driver</a></li>
+        
+
+        
+            
+                <li class="sec_generic"><a class="jsGotoPage " href="/Portal/report/home">Reports</a></li>
+            
+        
+
+        
+            
+                <li class="sec_generic">
+                    
+                        
+                            <a class="jsGotoPage " href="/Portal/myeroad/logbook">Logbook</a>
+                        
+                        
+                    
+                </li>
+            
+        
+
+        
+            <li class="sec_generic">
+                
+                    
+                        <a class="jsGotoPage " href="/Portal/myeroad/fuel">Fuel</a>
+                    
+                    
+                
+            </li>
+        
+    </ul>
+
+
+        </nav><!--nav-->
+
+        
+
+        
+
+        <ul class="header-right">
+            
+                <li id="eroad-app-action-center-icon">
+                    <a data-reactroot="" class="action-center-icon" href="/Portal/admin/actionCenter">
+                        <span class="action-center-icon-label"> activities in Action Center</span>
+                    </a>
+                </li>
+            
+
+            
+                
+            
+
+            <li id="banner-bannerMenu">
+                <a href="javascript:toggleBannerMenu()" id="bannerSettingsIcon">
+                    <i class="material-icons" data-icon="settings">&#xE8B8;</i>
+                </a>
+            </li>
+
+            
+                <li id="banner-help">
+                    <a
+                        class="inlinetooltip"
+                        href="/Portal/help/helpPanel?topic=serviceandmaintenance"
+                        title="Service and Maintenance"
+                        id="bannerHelpIcon" rel="/Portal/help/helpPanel?topic=serviceandmaintenance">
+                        <i class="material-icons" data-icon="help">&#xE887;</i>
+                    </a>
+                </li>
+            
+        </ul>
+    </div>
+</header>
+
+
+        <div class="panel type09 main" id="wrapper">
+
+            <div class="contentPanel">
+                
+                <div id="menu" style="display: flex; height: 100%; float: left;">
+                    
+                    <style>
+    /* The switch - the box around the slider */
+    .service-sidenav .switch {
+        position: relative;
+        display: inline-block;
+        width: 36px;
+        height: 18px;
+        margin: 2px 0px 2px 0px;
+    }
+    /* Hide default HTML checkbox */
+    .service-sidenav .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+    /* The slider */
+    .service-sidenav .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(87, 87, 87, 1);
+        -webkit-transition: 0.4s;
+        transition: 0.4s;
+    }
+    .service-sidenav .slider:before {
+        position: absolute;
+        content: "";
+        height: 14px;
+        width: 14px;
+        background-color: rgba(46, 46, 46, 1);
+        -webkit-transition: 0.4s;
+        transition: 0.4s;
+    }
+    .service-sidenav input:checked + .slider {
+        background-color: red;
+        border: 2px solid red;
+    }
+    /* Rounded sliders */
+    .service-sidenav .slider.round {
+        border-radius: 14px;
+        border: 2px solid rgba(87, 87, 87, 1);
+        padding: 0px;
+        margin: 0px;
+    }
+    .service-sidenav .slider.round:before {
+        border-radius: 50%;
+        background-color: rgba(46, 46, 46, 1);
+    }
+    .service-sidenav input:checked + .slider:before {
+        -webkit-transform: translateX(18px);
+        -ms-transform: translateX(18px);
+        transform: translateX(18px);
+        background-color: white;
+    }
+    .service-sidenav ul {
+        padding: 0px;
+    }
+    .service-sidenav .service-beta-container {
+        margin-left: 5px;
+    }
+    .service-sidenav {
+        font-family: Roboto-Regular, Roboto;
+        height: 100%;
+        width: 240px;
+        background-color: rgba(46, 46, 46, 1);
+        overflow-x: hidden;
+        padding-top: 32px;
+        color: #949494;
+        font-size: 16px;
+    }
+    @media (max-width: 1280px) {
+        .service-sidenav {
+            width: 160px;
+            font-size: 14px;
+        }
+    }
+    .service-sidenav a {
+        color: inherit;
+        padding: 8px 16px 8px 25px;
+        text-decoration: none;
+        margin: 0px;
+        display: flex;
+        flex-direction: row;
+        transition: 0.3s;
+        line-height: 22px;
+    }
+    @media (max-width: 1280px) {
+        .service-sidenav a {
+            padding: 8px 12px 8px 12px;
+        }
+    }
+    .service-sidenav li {
+        margin-top: 8px;
+    }
+    .service-sidenav li:hover {
+        background-color: rgba(255, 255, 255, 0.08);
+    }
+    .service-sidenav li.selected {
+        border-left: 4px solid rgb(238, 49, 36);
+        color: white;
+    }
+    .service-sidenav a span {
+        text-decoration: none;
+        color: #949494;
+        width: auto;
+    }
+    .service-sidenav a span.selected {
+        color: white;
+    }
+    .service-sidenav .beta-text {
+        margin-left: auto;
+        font-size: 12px;
+    }
+
+    @media screen and (max-height: 450px) {
+        .service-sidenav {
+            padding-top: 15px;
+        }
+    }
+</style>
+
+
+
+
+
+
+
+<div id="serviceSidenav" class="service-sidenav">
+    <ul>
+        <li class="selected">
+            
+                
+                
+                    <a href="/Portal/machinemaintenance/servicehome">
+                
+            
+                Assets
+                
+                    
+                        <span class="beta-text">BETA</span>
+                    
+                    
+                    
+                    
+                
+                <div class="service-beta-container">
+                    <label class="switch">
+                        
+                            
+                                <input type="checkbox" />
+                            
+                            
+                            
+                            
+                        
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </a>
+        </li>
+        <li >
+            <a href="/Portal/myeroad/service/v2/suppliers">Suppliers</a>
+        </li>
+        
+        <li >
+            <a href="/Portal/myeroad/pretrip-surveys/">In-cab Comms</a>
+        </li>
+        
+        
+            <li >
+                <a href="/Portal/myeroad/incab-service-alert-configurations/">In-cab Alerts</a>
+            </li>
+        
+        
+        <li >
+            <a href="/Portal/myeroad/service/v2/plans">Service Plans</a>
+        </li>
+        
+    </ul>
+</div>
+<script type="text/javascript" src="/Portal/javascript/jquery183-combo.min.js?v=10-03-2021-1958"></script>
+<script type="text/javascript">
+    // Constants
+    var newServiceUrl = "/Portal/myeroad/service/v2/assets";
+    var oldServiceUrl = "/Portal/machinemaintenance/servicehome";
+
+    // Utility functions
+    function redirectToNewServiceAssetPage() {
+        window.location = newServiceUrl;
+    }
+
+    function redirectToOldServiceHome() {
+        window.location = oldServiceUrl;
+    }
+
+    function toggleServiceBetaSetting(value, callback) {
+        var url = "/Portal/admin/manageuser/saveuserpreference?name=servicebetaenabled&value=" + value + "&persist=true";
+        jQuery.post(url, callback);
+    }
+
+    // On page load, handle jquery bindings
+    jQuery(document).ready(function() {
+        // Bind settings change and page redirection to switch
+        jQuery(".service-beta-container .switch input").click(function() {
+            if (jQuery(this).is(":checked")) {
+                toggleServiceBetaSetting(true, function() {
+                    redirectToNewServiceAssetPage();
+                });
+            } else {
+                toggleServiceBetaSetting(false, function() {
+                    redirectToOldServiceHome();
+                });
+            }
+        });
+    });
+</script>
+
+                </div>
+                
+                <div style="display: flex; position: relative;" data-location="mainPanel" class="panelContainer mainPanel" id="content">
+
+                    <div id="exportViaEmailSnackbar">
+                        <p id="exportViaEmailSnackbarText"></p>
+                        <a id="exportViaEmailSnackbarCloseButton" href="javascript:closeExportViaEmailSnackbar()">OK</a>
+                    </div>
+
+                    <div class="reportsRightCol" id="reportsRightCol">
+
+                        <div id="servicemachinesHolder">
+
+                            <div id="service_repHolder_header">
+                                <h2>Service Vehicles</h2>
+                            </div>
+
+                            <div id="reportMenuOverlay" class="menuOverlay"></div>
+                            <div id="servicescheduleOptionsMenu" class="reportoptionsMenu">
+
+                            <ul class="menu_body">
+
+                                <li>
+                                    <a class="inlinetooltip" style="position:relative" id="HelpIndex" title="Help" href="/Portal/help/helpPanel?topic=serviceandmaintenance" rel="/Portal/help/helpPanel?topic=serviceandmaintenance">
+                                        <img class="menuIcon" width="21" height="21" alt="Help" src="/Portal/images/eroadicons/help.png"/>
+                                        Service Help
+                                    </a>
+                                </li>
+
+                                
+
+                                
+                                    <li>
+                                        <a href="javascript:downloadMachinesFile('CSV')">
+                                            <img class="menuIcon" src="/Portal/images/eroadicons/xls_medium.png" width="22" height="25" title="Export a CSV" alt="Export CSV"/>
+                                            Export CSV Schedules
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:downloadMachinesFile('PDF')">
+                                            <img class="menuIcon" src="/Portal/images/eroadicons/pdf_medium_v3.png" width="22" height="25" title="Open PDF Version for printing or Exporting" alt="Open PDF Version for printing"/>
+                                            Export PDF Schedules
+                                        </a>
+                                    </li>
+                                
+
+                                
+                                    <li >
+                                        <a href="javascript:openScheduleModal('serviceschedule')">
+                                            <img class="menuIcon" src="/Portal/images/eroadicons/mail_medium.png" width="22" height="25" title="Schedule this report to be delivered to your Email" alt="Export CSV"/>
+                                            Schedule this Report
+                                        </a>
+                                    </li>
+                                
+
+                                
+                                    <li class="seperator">
+                                        <a id="servicereportlink" title="Go to the full service history report" href="javascript:gotoServiceReport()">
+                                            <img class="menuIcon" src="/Portal/images/eroadicons/serviceReportIcon_small.png" width="21" height="20" title="Go to the full service history report" alt="Service Report"/>
+                                            Go to Service Report
+                                        </a>
+                                    </li>
+                                
+
+                            </ul>
+                        </div>
+
+                        <div id="actionbuttons">
+                            <a id="reportoptions" class="reportOtionsIcon" title="Open Report Options" href="javascript:reportOptionsMenu('servicescheduleOptionsMenu')" style="">
+                                Tools
+                            </a>
+                        </div>
+
+                        <div id="reportDetailHeader" class="fullwidth">
+                            <table width="100%">
+                                <tr>
+                                    <td>Search:</td>
+                                    <td width="38%">
+                                        <input type="text" name="searchString" id="searchString" placeholder="Name or Rego." value=""/>
+                                    </td>
+                                    <td>Status:</td>
+                                    <td width="38%" id="td_servicehome_duestatus">
+                                        <select id="servicehome_duestatus" name="serviceduestatus">
+                                            <option value="">All</option>
+                                            <option value="DUE" >Due (orange and red)</option>
+                                            <option value="OVERDUE" >Overdue by total (red)</option>
+                                            <option value="OVERDUE_DATE" >Overdue by date (red)</option>
+                                            <option value="OVERDUE_EHUBOREADING" >Overdue by distance (red)</option>
+                                            <option value="OVERDUE_ENGINEHOUR" >Overdue by engine hour (red)</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="vertical-align: top;">Group (Fleet):</td>
+                                    <td>
+                                        <select  id="fleetId" name="vehiclepicker" class="servicefleetPicker">
+                                            
+                                                <option value="" style="color:gray">All Groups (Fleets)</option>
+                                                <option value="sep" style="color:gray">......................................</option>
+                                            
+                                            
+                                                <option value="31877" selected>Matt</option>
+                                            
+                                        </select></td>
+                                    <td style="vertical-align: top;">Type:</td>
+                                    <td>
+                                        <select id="servicehome_servicetype" name="servicetypename">
+                                            <option value="">All service types</option>
+                                            
+                                                <option value="REGO" >REGO</option>
+                                            
+                                                <option value="WOF" >WOF</option>
+                                            
+                                                <option value="COF" >COF</option>
+                                            
+                                                <option value="Pre-COF" >Pre-COF</option>
+                                            
+                                                <option value="15K Service" >15K Service</option>
+                                            
+                                                <option value="200 hour service" >200 hour service</option>
+                                            
+                                                <option value="2 Way Radio" >2 Way Radio</option>
+                                            
+                                                <option value="30 Day Service" >30 Day Service</option>
+                                            
+                                                <option value="5000 KM Service" >5000 KM Service</option>
+                                            
+                                                <option value="60000 kms or 48 months Service" >60000 kms or 48 months Service</option>
+                                            
+                                                <option value="6 Monthly Service" >6 Monthly Service</option>
+                                            
+                                                <option value="air con" >air con</option>
+                                            
+                                                <option value="A Service" >A Service</option>
+                                            
+                                                <option value="Battery" >Battery</option>
+                                            
+                                                <option value="battery check" >battery check</option>
+                                            
+                                                <option value="Brake Due" >Brake Due</option>
+                                            
+                                                <option value="B Service" >B Service</option>
+                                            
+                                                <option value="CCTV 6 months inspection" >CCTV 6 months inspection</option>
+                                            
+                                                <option value="Crane DEck" >Crane DEck</option>
+                                            
+                                                <option value="C Service" >C Service</option>
+                                            
+                                                <option value="Custom" >Custom</option>
+                                            
+                                                <option value="Custom Service" >Custom Service</option>
+                                            
+                                                <option value="Drug Test TDDA" >Drug Test TDDA</option>
+                                            
+                                                <option value="D Service" >D Service</option>
+                                            
+                                                <option value="End of Lease" >End of Lease</option>
+                                            
+                                                <option value="Engineering Tasks" >Engineering Tasks</option>
+                                            
+                                                <option value="E Service" >E Service</option>
+                                            
+                                                <option value="Example" >Example</option>
+                                            
+                                                <option value="Failed WOF Service" >Failed WOF Service</option>
+                                            
+                                                <option value="Fire Extinguisher check" >Fire Extinguisher check</option>
+                                            
+                                                <option value="First Aid Kit" >First Aid Kit</option>
+                                            
+                                                <option value="Frigderation" >Frigderation</option>
+                                            
+                                                <option value="F Service" >F Service</option>
+                                            
+                                                <option value="Fuel - Manually Added" >Fuel - Manually Added</option>
+                                            
+                                                <option value="ggg" >ggg</option>
+                                            
+                                                <option value="Grease" >Grease</option>
+                                            
+                                                <option value="Hiab Cert Labels" >Hiab Cert Labels</option>
+                                            
+                                                <option value="Incident" >Incident</option>
+                                            
+                                                <option value="JARED" >JARED</option>
+                                            
+                                                <option value="Km update" >Km update</option>
+                                            
+                                                <option value="Licence" >Licence</option>
+                                            
+                                                <option value="Mechanical Service" >Mechanical Service</option>
+                                            
+                                                <option value="MISCELLANEOUS" >MISCELLANEOUS</option>
+                                            
+                                                <option value="New Custom Service" >New Custom Service</option>
+                                            
+                                                <option value="New engine" >New engine</option>
+                                            
+                                                <option value="New Tyres" >New Tyres</option>
+                                            
+                                                <option value="Odo Synch" >Odo Synch</option>
+                                            
+                                                <option value="oil" >oil</option>
+                                            
+                                                <option value="Oil Change" >Oil Change</option>
+                                            
+                                                <option value="Oil Filters" >Oil Filters</option>
+                                            
+                                                <option value="Panel Beaters" >Panel Beaters</option>
+                                            
+                                                <option value="previous history" >previous history</option>
+                                            
+                                                <option value="Recall" >Recall</option>
+                                            
+                                                <option value="repair bumper" >repair bumper</option>
+                                            
+                                                <option value="Right door service" >Right door service</option>
+                                            
+                                                <option value="R L Tyre Change" >R L Tyre Change</option>
+                                            
+                                                <option value="ruc" >ruc</option>
+                                            
+                                                <option value="Service F" >Service F</option>
+                                            
+                                                <option value="Service G" >Service G</option>
+                                            
+                                                <option value="Stretcher WFA" >Stretcher WFA</option>
+                                            
+                                                <option value="Tasks" >Tasks</option>
+                                            
+                                                <option value="test" >test</option>
+                                            
+                                                <option value="test02" >test02</option>
+                                            
+                                                <option value="Test2 for Service Alerts" >Test2 for Service Alerts</option>
+                                            
+                                                <option value="Test for Service Alerts" >Test for Service Alerts</option>
+                                            
+                                                <option value="Test service" >Test service</option>
+                                            
+                                                <option value="Tyre Replacement" >Tyre Replacement</option>
+                                            
+                                                <option value="tyres" >tyres</option>
+                                            
+                                                <option value="Wash back wheels" >Wash back wheels</option>
+                                            
+                                                <option value="Wedding Anniversary" >Wedding Anniversary</option>
+                                            
+                                                <option value="weekend Defect" >weekend Defect</option>
+                                            
+                                                <option value="Window Screen" >Window Screen</option>
+                                            
+                                                <option value="WSP Service" >WSP Service</option>
+                                            
+                                        </select>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div id="machinechooserGridWrapper">
+                            <div id="machineGridLoader" class="gridloader">
+                                <img src="/Portal/images/eroadicons/loadingLarge.gif" width="125" height="125" alt="loading"/>
+                            </div>
+                            <table id="machines"></table>
+                            <div id="ppp" style="text-align:center;"></div>
+                        </div>
+
+                        <div id="repHolder_footer">
+                            <div id="footer_right"></div>
+                        </div>
+
+                    </div>
+
+                    <div id="scheduleHolder">
+                        <div id="machinedetailsHeader">
+                            <div id="rigiconcontainer">
+                                <img class="rigicon" src="/Portal/images/vehicleIcons/eroad/RUCvehicles/type-14/default.png"/>
+                            </div>
+                            <h3>Display Name</h3>
+                        </div>
+
+                        <div id="machineDetailsHeader_content"></div>
+
+                        <div id="singleServicescheduleOptionsMenu" style="top:125px;right:90px" class="reportoptionsMenu">
+                            <ul class="menu_body">
+                                <li>
+                                    <a class="inlinetooltip" style="position:relative" id="HelpIndex" title="Help" href="/Portal/help/helpPanel?topic=serviceandmaintenance" rel="/Portal/help/helpPanel?topic=serviceandmaintenance">
+                                        <img class="menuIcon" width="21" height="21" alt="Help" src="/Portal/images/eroadicons/help.png"/>
+                                        Service Help
+                                    </a>
+                                </li>
+                                <li class="seperator"><a href="javascript:downloadSchedulesFile('PDF')">
+                                        <img class="menuIcon" src="/Portal/images/eroadicons/pdf_medium_v3.png" width="22" height="25" title="Open PDF Version for printing or Exporting" alt="Open PDF Version for printing"/>
+                                        Export PDF Schedule
+                                    </a>
+                                </li>
+                                <li><a href="javascript:downloadSchedulesFile('CSV')">
+                                        <img class="menuIcon" src="/Portal/images/eroadicons/xls_medium.png" width="22" height="25" title="Export a CSV" alt="Export CSV"/>
+                                        Export CSV Schedule
+                                    </a>
+                                </li>
+                                
+                                    <li>
+                                        <a href="javascript:setupVehicleScheduleModal()">
+                                            <img class="menuIcon" src="/Portal/images/eroadicons/mail_medium.png" width="22" height="25" title="Schedule this report to be delivered to your Email" alt="Export CSV"/>
+                                            Schedule this Report
+                                        </a>
+                                    </li>
+                                
+                                
+                                    <li class="seperator">
+                                        <a id="servicereportlink" title="Go to the full service history report" href="javascript:gotoServiceReport()">
+                                            <img class="menuIcon" src="/Portal/images/eroadicons/serviceReportIcon_small.png" width="21" height="20" title="Go to the full service history report" alt="Service Report"/>
+                                            Go to Service Report
+                                        </a>
+                                    </li>
+                                
+                            </ul>
+                        </div>
+
+                        <div id="completedServicesOptionsMenu"  style="top:125px;right:90px" class="reportoptionsMenu">
+                            <ul class="menu_body">
+                                <li>
+                                    <a class="inlinetooltip" style="position:relative" id="HelpIndex" title="Help" href="/Portal/help/helpPanel?topic=serviceandmaintenance" rel="/Portal/help/helpPanel?topic=serviceandmaintenance">
+                                        <img class="menuIcon" width="21" height="21" alt="Help" src="/Portal/images/eroadicons/help.png"/>
+                                        Service Help
+                                    </a>
+                                </li>
+                                <li class="seperator">
+                                    <a href="javascript:downloadCompletedFile('PDF')">
+                                        <img class="menuIcon" src="/Portal/images/eroadicons/pdf_medium_v3.png" width="22" height="25" title="Open PDF Version for printing or Exporting" alt="Open PDF Version for printing"/>
+                                        Export Services as PDF
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:downloadCompletedFile('CSV')">
+                                        <img class="menuIcon" src="/Portal/images/eroadicons/xls_medium.png" width="22" height="25" title="Export a CSV" alt="Export CSV"/>
+                                        Export Services as CSV
+                                    </a>
+                                </li>
+                                
+                                    <li>
+                                        <a href="javascript:openScheduleModal('vehicleservice')">
+                                            <img class="menuIcon" src="/Portal/images/eroadicons/mail_medium.png" width="22" height="25" title="Schedule this report to be delivered to your Email" alt="Export CSV"/>
+                                            Schedule Service Report
+                                        </a>
+                                    </li>
+                                
+                                
+                                    <li class="seperator">
+                                        <a id="servicereportlink" title="Go to the full service history report" href="javascript:gotoServiceReport()">
+                                            <img class="menuIcon" src="/Portal/images/eroadicons/serviceReportIcon_small.png" width="21" height="20" title="Go to the full service history report" alt="Service Report"/>
+                                            Go to Service Report
+                                        </a>
+                                    </li>
+                                
+                            </ul>
+                        </div>
+
+                        <div id="tasksOptionsMenu"  style="top:125px;right:10px" class="reportoptionsMenu">
+                            <ul class="menu_body">
+                                <li>
+                                    <a class="inlinetooltip" style="position:relative" id="HelpIndex" title="Help" href="/Portal/help/helpPanel?topic=serviceandmaintenance" rel="/Portal/help/helpPanel?topic=serviceandmaintenance">
+                                        <img class="menuIcon" width="21" height="21" alt="Help" src="/Portal/images/eroadicons/help.png"/>
+                                        Tasks Help
+                                    </a>
+                                </li>
+                                <li class="seperator">
+                                    <a href="javascript:downloadCompletedFile('PDF')">
+                                        <img class="menuIcon" src="/Portal/images/eroadicons/pdf_medium_v3.png" width="22" height="25" title="Open PDF Version for printing or Exporting" alt="Open PDF Version for printing"/>
+                                        Export Tasks as PDF
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:downloadCompletedFile('CSV')">
+                                        <img class="menuIcon" src="/Portal/images/eroadicons/xls_medium.png" width="22" height="25" title="Export a CSV" alt="Export CSV"/>
+                                        Export Tasks as CSV
+                                    </a>
+                                </li>
+                                
+                                    <li>
+                                        <a href="javascript:openScheduleModal('vehicleservice')">
+                                            <img class="menuIcon" src="/Portal/images/eroadicons/mail_medium.png" width="22" height="25" title="Schedule this report to be delivered to your Email" alt="Export CSV"/>
+                                            Schedule Service Report
+                                        </a>
+                                    </li>
+                                
+                                
+                                    <li class="seperator">
+                                        <a id="servicereportlink" title="Go to the full service history report" href="javascript:gotoServiceReport()">
+                                            <img class="menuIcon" src="/Portal/images/eroadicons/serviceReportIcon_small.png" width="21" height="20" title="Go to the full service history report" alt="Service Report"/>
+                                            Go to Service Report
+                                        </a>
+                                    </li>
+                                
+                            </ul>
+                        </div>
+
+                        <div id="tabs" class="ui-tabs">
+
+                            <ul>
+                                <li>
+                                    <a href="#tab-schedule"><span>Scheduled</span></a>
+                                </li>
+                                <li>
+                                    <a href="#tab-completed"><span>Completed</span></a>
+                                </li>
+                                
+                                <li>
+                                    <a href="#tab-tasks"><span id="captionTasks">Tasks</span></a>
+                                </li>
+                                
+                            </ul>
+
+                            <div id="tab-schedule" class="ui-tabs-hide">
+                                <div id="scheduleGridLoader" class="gridloader"><img src="/Portal/images/eroadicons/loadingLarge.gif" width="125" height="125" alt="loading"/></div>
+                                <div id="scheduledgridmessage">There are no service items scheduled for this vehicle. <br/>Click the "Schedule New Service" button above to create one.</div>
+                                <div id="servicewelcomemessage" class="servicewelcomemessage">Click on a vehicle to the left to manage its Service, Maintenance and Compliance Schedule.<br/><br/>Read the Service and Maintenance <a href="/Portal/admin/adminhelp">help files</a> to get you started.</div>
+
+                                <div id="scheduleTabHeader">
+
+                                    <div id="scheduleTabHeader_buttons">
+
+                                        <a id="reportoptions" class="reportOtionsIcon" title="Open Report Options" href="javascript:reportOptionsMenu('singleServicescheduleOptionsMenu')" style="">
+                                            Tools
+                                        </a>
+
+                                    </div>
+
+                                     <input id="scheduleserviceitembutton" type="button" class="button" value="Schedule New Service" style=""/>
+
+                                    <div id="maxscheduledreachedmessage">
+                                        You already have the maximum of 25<br/> scheduled items for this vehicle.
+                                    </div>
+                                </div>
+
+                                <div id="scheduleGridWrapper">
+                                    <table id="scheduled"></table>
+                                    <div id="schedule_pager" style="text-align:center;"></div>
+                                </div>
+
+                            </div>
+
+                            <div id="tab-completed" class="ui-tabs-hide">
+
+                                <div id="daterangeWrapper">
+
+                                    <div id="spanpicker">
+                                        <select name="timespan" id="timespan">
+                                            <option value="thismonth">This Month</option>
+                                            <option value="lastmonth">Last Month</option>
+                                            <option value="last12monthsAndNext12" selected>The Last 12 Months </option>
+                                            <option value="thisyear">This Year</option>
+                                            <option value="lastyear">Last Year</option>
+                                            <option value="range">A Date Range</option>
+                                        </select>
+                                    </div>
+
+                                    <div id="rangepicker">
+                                        From:<input name="chosenStartDate" class="datepickfield" id="chosenStartDate" value="17 Feb, 2021"  /><br/>
+                                        To:<input name="chosenEndDate" class="datepickfield" id="chosenEndDate" value="17 Mar, 2021"/>
+                                    </div>
+
+                                </div>
+
+                                <div id="completedGridLoader" class="gridloader"><img src="/Portal/images/eroadicons/loadingLarge.gif" width="125" height="125" alt="loading"/></div>
+
+                                <div id="completedgridmessage">There are no completed service items for this vehicle. <br/>You complete a service by clicking the complete link in the scheduled list.
+                                    <br/>OR you may add a one off service into this list by clicking the "Add Completed Service" button above.
+                                </div>
+
+                                <div id="servicewelcomemessage" class="servicewelcomemessage">Click on a vehicle to the left to see its completed service items.</div>
+
+                                <div id="completedTabHeader">
+                                    <input id="comp_completeserviceitembutton" type="button" class="button" value="Add One-Off Completed Service" style=""/>
+                                    <div id="completedTabHeader_buttons">
+                                        <a id="reportoptions" class="reportOtionsIcon" title="Open Report Options" href="javascript:reportOptionsMenu('completedServicesOptionsMenu')" style="">
+                                            Tools
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div id="completedGridWrapper">
+                                    <table id="completed"></table>
+                                    <div id="completed_pager" style="text-align:center;" ></div>
+                                </div>
+                            </div>
+
+                            <div id="tab-tasks" class="ui-tabs-hide">
+                                <div id="tasksGridLoader" class="gridloader"><img src="/Portal/images/eroadicons/loadingLarge.gif" width="125" height="125" alt="loading"/></div>
+
+                                <div id="tasksgridmessage">There are no service tasks for this vehicle. <br/>Click the "New Service Task" button above to create one.</div>
+
+                                <div id="servicewelcomemessage" class="servicewelcomemessage">Click on a vehicle to the left to see its service tasks.</div>
+
+                                <div id="tasksTabHeader">
+                                    <input id="newservicetaskitembutton" type="button" class="button" value="New Service Task" data-targetid="addServiceTask" data-modalurl="" />
+                                </div>
+
+                                <div id="tasksGridWrapper">
+                                    <table id="tasks"></table>
+                                    <div id="tasks_pager" style="text-align:center;" />
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer id="footer" class="pageFooter" style="pointer-events: none;">
+    <div class="leftContent floatLeft">
+        <nav class="type03">
+            <ul>
+                <li>&copy; 2021 EROAD Limited, All rights reserved.</li>
+                
+                    <li>
+                        <a href="http://www.eroad.co.nz/terms-and-conditions-of-ehubo/" target="_blank">Terms and Conditions</a>
+                    </li>
+                
+            </ul>
+        </nav>
+    </div>
+    <div class="rightContent floatRight">
+        
+            <nav id="logindetails" class="type03">
+                <ul>
+                    <li><a id="footerloggedinname"  href="/Portal/admin/myprofile" title="Logged in as: Michael Curlett (Username: michael&#64;directsafety&#46;co&#46;nz)">Michael Curlett</a></li>
+                    
+                    <li>
+			        	
+				        <form id="logout-form-footer" name="logout" action="/Portal/logout" method="POST">
+				        	<a class="hideSub" href="#" onclick="logoutEverywhere('logout-form-footer')" title="Log out of EROAD Depot" style="pointer-events: all;">Log out</a>
+				        <input type="hidden" name="_csrf" value="19a5f0b9-99bf-4088-9685-8edff6f5f51e" />
+</form>
+                    </li>
+                </ul>
+            </nav>
+        
+    </div>
+</footer>
+
+    <div id="vehicleMessagesAlertMainWrapper" class="">
+            <div id="vehicleMessagesAlert">
+            </div>
+        </div>
+
+<div id="bannerMenuOverlay" class="menuOverlay"></div>
+
+
+<script type="text/javascript">
+    var jsContextPath = "/Portal";
+    var orgdriveridmodule, messagingEnabled, expandMessages;
+    var orgeboxnumber = 0;
+    orgdriveridmodule = true;
+    
+        
+            messagingEnabled = true
+        
+    
+        var newmessagesoundenabled = "";
+    expandMessages = true;
+    orgeboxnumber = 34;
+    
+    
+        
+        
+        var addresssearchenabled = true;
+        var addresssearchservice = 'GEOSMART';
+        var defaultMapcenterLong = 172;
+        var defaultMapcenterLat = -41;
+        var oregontaxenabled = false;
+        var nzrucenabled = true;
+        var orglocale = "en_NZ";
+        var maxGpsAccuracy = 25;
+        var galoti = false;
+    
+        
+        galoti = true;
+        
+    
+        var prefid = "356571";
+        var hideAdmin = true;
+        var isRucUser = false;
+    
+    
+    
+        isRucUser = true;
+    
+
+        var cusorgcid = "Eroad&amp;#32;Sales&amp;#32;Dept1250197643134";
+        var csts = new Date().getTime();
+        var csto = 7200;
+        var cwrn = 600;
+        var pint = 40;
+        var pint_focused = 40;
+        var pint_blurred = 150;
+        var csrn = csto;
+    
+
+    
+
+        var geofenceGenErrorMessage = "There may have been a problem saving this geofence, please try again.";
+
+        function addBaseLayers() {
+            var layArray = [hereStreetsLayer, hereSateliteLayer, hereTerrainLayer, hereTrafficLayer, hereTrafficHybridLayer, hereTruckLayer];
+            jQuery.each(layArray, function(key, value) {
+                try {
+                    map.addLayer(eval(value));
+                } catch (err) {
+                }
+                ;
+            });
+        }
+
+</script>
+<script type="text/javascript" src="/Portal/javascript/cdn/lodash.min.js?v=10-03-2021-1958"></script>
+<script type="text/javascript" src="/Portal/javascript/cdn/moment.min.js?v=10-03-2021-1958"></script>
+<script type="text/javascript" src="/Portal/javascript/jquery183-combo.min.js?v=10-03-2021-1958"></script>
+<script type="text/javascript" src="/Portal/javascript/main.js?v=10-03-2021-1958"></script>
+<script type="text/javascript" src="/Portal/prejs/main.js?v=10-03-2021-1958"></script>
+<script type="text/javascript" src="/Portal/javascript/grid-ui-plugins.js?v=10-03-2021-1958"></script>
+<script type="text/javascript" src="/Portal/javascript/metrics.js?v=10-03-2021-1958"></script>
+
+
+
+
+    
+        <script type="text/javascript">
+            (function() {
+                try {
+                    var ga = document.createElement('script');
+                    ga.type = 'text/javascript';
+                    ga.async = true;
+                    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                    var s = document.getElementsByTagName('script')[0];
+                    s.parentNode.insertBefore(ga, s);
+                } catch (err) {
+                }
+            })();
+        </script>
+    
+
+
+
+
+        </div>
+    </body>
+</html>
+
+<script type="text/javascript" src="/Portal/javascript/chosen/chosen.jquery.min.js?v=10-03-2021-1958"></script>
+<script type='text/javascript'>
+    var hideAdmin = true,
+        timeoutHnd = true,
+        selectedmachineid,
+        drTitle = '',
+        datePickerPattern = 'd M, yy',
+        drTitleEHUBO = 'Current Ehubo distance reading',
+        drTitleMHUBO = 'Mechanical hubodometer - no distance reading available',
+        drTitleODO = 'Current odometer reading based on EhuboLite synchronisation',
+        drTitleELOCATE = 'Elocate Distance - (this is not the odometer reading)',
+        drTitleETRACK = 'ETrack Distance - (this is not the odometer reading)',
+        drTitleASSET = 'Asset - no distance reading available',
+        drTitleLIGHTRUC = 'Light vehicle with no EROAD product installed - no distance reading available',
+        orgLocale = 'en_NZ',
+        vgridwidth = 250,
+        isClickOnLink = false;
+
+    
+
+        $(document).ready(function() {
+
+            var $tabs = $('#tabs'),
+                $chosenStartDate = $('#chosenStartDate'),
+                $chosenEndDate = $('#chosenEndDate'),
+                $fleetIds = $('#fleetId');
+
+            // EVENT BINDINGS
+            $('#searchString').bind('keyup', handleSearchChange);
+            $('#servicehome_servicetype').bind('change', handleServiceTypeChange);
+            $('#servicehome_duestatus').bind('change', handleScheduleStatusChange);
+            $('#timespan').bind('change', handleSpanChange);
+            $('#scheduleserviceitembutton').bind('click', scheduleServiceItem);
+            $('#sch_completeserviceitembutton, #comp_completeserviceitembutton').bind('click', addSingleServiceItem);
+            $('#newservicetaskitembutton').bind('click', newServiceTask);
+
+            $chosenEndDate.bind('change', handleDateChange);
+            $chosenStartDate.bind('change', handleDateChange);
+
+            $chosenStartDate.datepicker({
+                dateFormat: datePickerPattern,
+                defaultDate: -1,
+                firstDay: 1,
+                showOn: 'button',
+                buttonText: 'Choose a beginning date',
+                buttonImageOnly: true,
+                buttonImage: jsContextPath + '/images/common/calendar.png',
+                showAnim: 'slideDown',
+                speed: 'fast'
+            });
+
+            $chosenEndDate.datepicker({
+                dateFormat: datePickerPattern,
+                defaultDate: -1,
+                firstDay: 1,
+                showOn: 'button',
+                buttonText: 'Choose an end date',
+                buttonImageOnly: true,
+                buttonImage: jsContextPath + '/images/common/calendar.png',
+                showAnim: 'slideDown',
+                speed: 'fast'
+            });
+
+            $fleetIds.bind('change', function(){
+                handelStandardFleetChange();
+
+                // If multiple fleets and users used, handle dynamic sizing
+                if (false) {
+                    var tableElem = $("#machinechooserGridWrapper");
+                    var updatedSelectHeight = parseInt($("#fleetId_chosen").css("height"));
+
+                    tableElem.css("top", 87 + (updatedSelectHeight - 20));
+                    applyLayout();
+                }
+            });
+
+            if (false) {
+                $("#fleetId").chosen({
+                    no_results_text: "Oops, nothing found!",
+                    max_selected_options: 20,
+                    placeholder_text_multiple: "All Groups (Fleets) [Max: 20]",
+                });
+            }
+
+            $tabs.tabs({
+                fx: {
+                    opacity: 'toggle'
+                },
+                show: function(event, ui) {
+                    selecttab(ui)
+                }
+            });
+
+            if (geturlval('hometab')) {
+                $tabs.tabs({
+                    selected: parseInt(geturlval('hometab'))
+                });
+            }
+
+            var urlstring = buildMachineURL('grid');
+            $('#machines').jqGrid({
+                url: urlstring,
+                datatype: 'xml',
+                colNames:['id','','Name','Plate','Next Service Item'],
+                colModel:[
+                    { name: 'id', index: 'id', hidden: true },
+                    { name: 'icon', index: 'icon', width: 55, align: 'left', sortable:false },
+                    { name: 'name', index: 'display_name', width: 300, align: 'left', sortable:true },
+                    { name: 'rego', index: 'rego', width: 80, align: 'left', sortable:false },
+                    { name: 'servicedue', index: 'servicedue', width: 210, align: 'left', sortable:false }
+                ],
+                height:'375px',
+                width:vgridwidth,
+                shrinkToFit:true,
+                forceFit:true,
+                altRows:true,
+                loadui:'disable',
+                rowNum: ($('#servicehome_duestatus').val() == 'OVERDUE_DATE' || $('#servicehome_duestatus').val() == 'OVERDUE_EHUBOREADING' || $('#servicehome_duestatus').val() == 'OVERDUE_ENGINEHOUR') ? 99999 : 30,
+                recordtext: '{2} Vehicles',
+                pgtext: 'Page {0} of {1}',
+                pager: $('#ppp'),
+                viewrecords: true,
+                multiselect: false,
+                autowidth: true,
+                gridview: true,
+                xmlReader: {
+                    root: 'machines',
+                    row: 'machine',
+                    repeatitems: false,
+                    id: 'id',
+                    page: 'machines>currentpage',
+                    total: 'machines>totalpages',
+                    records: 'machines>totalrecords'
+                },
+                loadComplete: function() {
+                    var machineInSession = sessionStorage.getItem("service:machineId");
+                    var machineId = selectedmachineid || machineInSession;
+                    if (machineId && hasMachineInGrid(machineId)) {
+                        //try to reselect chosen machine
+                        $('#machines').setSelection(machineId);
+                        highlightGridRow('#machines', machineId);
+                    } else if ($("#machines").jqGrid("getDataIDs").length === 1) {
+                    	machineId = $("#machines").jqGrid("getDataIDs")[0];
+					 	$('#machines').setSelection(machineId);
+						highlightGridRow('#machines', machineId);
+                    } else {
+                    	resetMachineSelection();
+                    }
+
+                },
+                onSelectRow: function(id) {
+                    selectedmachineid = id;
+                    showschedule(id);
+                },
+                loadBeforeSend: function() {
+                    $('#machineGridLoader').fadeIn();
+                },
+                gridComplete: function() {
+                    $('#machineGridLoader').fadeOut();
+                    $('#scheduleHolder').slideDown('slow');
+
+                },
+                loadError: function(xhr, st) {
+                    $('#machineGridLoader').fadeOut();
+                    handelGridLoadError(xhr, st, 'Service Machines');
+                }
+            });
+
+            var scheduledurlstring = '';
+            var xmlstring = '<serviceitems></serviceitems>';
+
+            $('#scheduled').jqGrid({
+                url:scheduledurlstring,
+                datatype: 'xmlstring',
+                datastr: xmlstring ,
+                colNames:['id','Scheduled service item','Next Due','Frequency','Supplier','','Action'],
+                colModel:[
+                    { name: 'id', index: 'id', resizable: false, hidden: true },
+                    { name: 'itemname', index: 'itemname', width: 210, align: 'left' },
+                    { name: 'nextdue', index: 'nextServiceDate', width: 160, align:'left' },
+                    { name: 'frequency', index: 'frequency', width: 150, align: 'left' },
+                    { name: 'supplier', index: 'supplier', hidden: false, width:120, align:'left' },
+                    { name: 'complete', index: 'complete', width: 100, align: 'center' },
+                    { name: 'action', index: 'action', hidden: false, width:50, align:'left', hidden: false }
+                ],
+                height: '375px',
+                width: vgridwidth,
+                shrinkToFit: true,
+                viewsortcols: true,
+                forceFit: true,
+                altRows: true,
+                loadui: 'disable',
+                rowNum: 30,
+                viewrecords: true,
+                multiselect: false,
+                autowidth: true,
+                gridview: true,
+                xmlReader: {
+                    root: 'scheduleditems',
+                    row: 'scheduleditem',
+                    repeatitems: false,
+                    id: 'id',
+                    page: 'scheduleditems>currentpage',
+                    total: 'scheduleditems>totalpages',
+                    records: 'scheduleditems>totalrecords'
+                },
+                loadComplete: function() {
+                    var $scheduled = $('#scheduled'),
+                        $scheduledgridmessage = $('#scheduledgridmessage');
+
+                    if (!$scheduled.getDataIDs().length && selectedmachineid > 0) {
+                        $scheduledgridmessage.fadeIn('slow');
+                    } else {
+                        $scheduledgridmessage.hide();
+                    }
+
+                    if ($scheduled.getDataIDs().length >= 25 && selectedmachineid > 0 ) {
+                        $('#scheduleserviceitembutton').hide();
+                        $('#maxscheduledreachedmessage').show();
+                    } else {
+                        $('#maxscheduledreachedmessage').hide();
+                        if (!false) {
+                            $('#scheduleserviceitembutton').show();
+                        }
+                    }
+                },
+                onSelectRow: function(id) {
+                    editSchedule(id);
+                },
+                loadBeforeSend: function() {
+                    $('#scheduleGridLoader').show();
+                    $('#scheduledgridmessage').hide();
+                    $('#servicehomeodovalue').hide();
+                },
+                gridComplete: function() {
+                    $('#scheduleGridLoader').hide();
+                },
+                loadError: function(xhr, st) {
+                    $('#scheduleGridLoader').hide();
+                    handelGridLoadError(xhr, st, 'Service scheduled items');
+                }
+            });
+
+            var completedurlstring = '';
+            var xmlstring = '<completeditems></completeditems>';
+
+            $('#completed').jqGrid({
+                url:scheduledurlstring,
+                datatype: 'xmlstring',
+                datastr: xmlstring ,
+                colNames:['Ref.','Ref.','Completed Item','Files','Completed','Dist. (km)','Supplier','Cost','Notes','Action'],
+                colModel:[
+                    { name: 'id', index: 'id', width: 140, sortable: true, hidden: true },
+                    { name: 'pdf', index: 'id', sortable: true, width: 120, align: 'left' },
+                    { name: 'itemname', index: 'serviceType', sortable: true, width: 220, align: 'left' },
+                    { name: 'attachment', index: 'attachment', width: 50, align: 'center' },
+                    { name: 'servicedate', index: 'serviceDate', sortable: true, width: 190, align: 'left' },
+                    { name: 'distance', index: 'serviceOdometer', sortable: true, width: 110, align: 'right' },
+                    { name: 'supplier', index: 'serviceSupplier', sortable: true, width: 150, align: 'left' },
+                    { name: 'amount', index: 'amount', sortable: true, width: 120, hidden: true, align: 'left'},
+                    { name: 'notes', index: 'notes', sortable: true, width: 220, align: 'left'},
+                    { name: 'action', index: 'action', width: 70, align: 'left', hidden: false }
+                ],
+                height: '375px',
+                width: vgridwidth,
+                shrinkToFit: true,
+                viewsortcols: true,
+                forceFit: true,
+                altRows: true,
+                loadui: 'disable',
+                rowNum: 50,
+                recordtext: '{2} Items',
+                pgtext: 'Page {0} of {1}',
+                sortname: 'serviceDate',
+                sortorder: 'desc',
+                pager: $('#completed_pager'),
+                viewrecords: true,
+                multiselect: false,
+                autowidth: true,
+                gridview: true,
+                xmlReader: {
+                    root: 'completeditems',
+                    row: 'completeditem',
+                    repeatitems: false,
+                    id: 'id',
+                    page: 'completeditems>currentpage',
+                    total: 'completeditems>totalpages',
+                    records: 'completeditems>totalrecords'
+                },
+                loadComplete: function() {
+                    if (!$('#completed').getDataIDs().length && selectedmachineid > 0) {
+                        $('#completedgridmessage').fadeIn('slow');
+                    } else {
+                        $('#completedgridmessage').hide();
+                    }
+                },
+                onSelectRow: function(id) {
+                    editService(id);
+                },
+                loadBeforeSend: function() {
+                    $('#completedgridmessage').hide();
+                    $('#completedGridLoader').fadeIn();
+                    $('#servicehomeodovalue').hide()
+                },
+                gridComplete: function() {
+                    $('#completedGridLoader').fadeOut();
+                },
+                loadError: function(xhr, st) {
+                    $('#completedGridLoader').fadeOut();
+                    handelGridLoadError(xhr, st, 'completed Service Items');
+                }
+            });
+
+            $('#tasks').jqGrid({
+                url: '',
+                datatype: 'xmlstring',
+                datastr: '<servicetasks></servicetasks>',
+                colNames: ['id','Task Name','Entered by','Entered Date','Status','Action'],
+                colModel:[
+                    { name: 'id', index: 'id', resizable: false, hidden: true },
+                    { name: 'itemname', index: 'itemname', width: 200, align: 'left' },
+                    { name: 'createdby', index: 'createdby', width: 120, align:'left' },
+                    { name: 'createddate', index: 'created', sortable: true, width: 80, align: 'left' },
+                    { name: 'taskstatus', index: 'taskstatus', hidden: false, width:180, align:'left' },
+                    { name: 'action', index: 'remove', hidden: false, width:50, align:'left' }
+                ],
+                height: '375px',
+                width: vgridwidth,
+                shrinkToFit: true,
+                viewsortcols: true,
+                forceFit: true,
+                altRows: true,
+                loadui: 'disable',
+                rowNum: 50,
+                recordtext: '{2} Items',
+                pgtext: 'Page {0} of {1}',
+                sortname: 'created',
+                sortorder: 'desc',
+                pager: $('#tasks_pager'),
+                viewrecords: true,
+                multiselect: false,
+                autowidth: true,
+                gridview: true,
+                xmlReader: {
+                    root: 'servicetasks',
+                    row: 'servicetask',
+                    repeatitems: false,
+                    id: 'id',
+                    page: 'servicetasks>currentpage',
+                    total: 'servicetasks>totalpages',
+                    records: 'servicetasks>totalrecords'
+                },
+                loadComplete: function() {
+                    var $tasks = $('#tasks'),
+                        $tasksgridmessage = $('#tasksgridmessage');
+
+                    if (!$tasks.getDataIDs().length && selectedmachineid > 0) {
+                        $tasksgridmessage.fadeIn('slow');
+                    } else {
+                        $tasksgridmessage.hide();
+                    }
+                    initModals();
+                    $('.linkAddTask').on('click', function(){isClickOnLink = true;});
+                },
+                onSelectRow: function(id) {
+                    if (!isClickOnLink) {
+                        editServiceTask(id);
+                    }
+                },
+                loadBeforeSend: function() {
+                    $('#tasksGridLoader').show();
+                    $('#tasksgridmessage').hide();
+                    $('#servicehomeodovalue').hide();
+                },
+                gridComplete: function() {
+                    $('#tasksGridLoader').hide();
+                },
+                loadError: function(xhr, st) {
+                    $('#tasksGridLoader').hide();
+                    handelGridLoadError(xhr, st, 'Service Tasks');
+                }
+            });
+
+            var resizeTimer = null;
+            $(window).bind('resize', function() {
+                if (resizeTimer) clearTimeout(resizeTimer);
+                resizeTimer = setTimeout(applyLayout, 200);
+            });
+            applyLayout();
+        });
+
+        function applyLayout() {
+            var $machinechooserGridWrapper = $('#machinechooserGridWrapper'),
+                $scheduleHolder = $('#scheduleHolder'),
+                $machines = $('#machines'),
+                $scheduled = $('#scheduled'),
+                $completed = $('#completed'),
+                $tasks = $('#tasks'),
+                gridheight = $machinechooserGridWrapper.height() - 40,
+                gridwidth =  $machinechooserGridWrapper.width() - 2;
+
+            $machines.setGridHeight(gridheight, '');
+            $machines.setGridWidth(gridwidth, '');
+
+            var gridheight = $scheduleHolder.height() - 195;
+            var gridwidth = $scheduleHolder.width() - 10;
+
+            $scheduled.setGridHeight(gridheight, '');
+            $scheduled.setGridWidth(gridwidth, '');
+
+            $completed.setGridHeight(gridheight, '');
+            $completed.setGridWidth(gridwidth, '');
+
+            $tasks.setGridHeight(gridheight, '');
+            $tasks.setGridWidth(gridwidth, '');
+        }
+
+        function setupVehicleScheduleModal() {
+            openScheduleModal('vehicleserviceschedule');
+        }
+
+        function removeServiceTask(event, serviceTaskId) {
+            if (event.stopPropagation) {
+                event.stopPropagation();
+                event.preventDefault();
+            } else {
+                window.event.cancelBubble = true;
+                window.event.returnValue = false;
+            };
+
+            var csrf = jQuery("input[name=_csrf]").val();
+            $('#tasks').delGridRow(serviceTaskId, {
+                reloadAfterSubmit: true,
+                top: 200,
+                left: 400,
+                closeAfterAdd: true,
+                modal: true,
+                width: 400,
+                caption: 'Remove Service Task',
+                reloadAfterSubmit: true,
+                bSubmit: 'Remove',
+                url: jsContextPath + '/machinemaintenance/deleteServiceTask',
+                msg: 'Are you sure you want to remove this service task?',
+                delData: {
+                    '_csrf': csrf
+                },
+                afterSubmit: function(reponsedata, requestparams) {
+                    var data = eval("(" + reponsedata.responseText + ")");
+                    if (data.success != 'true') {
+                        $('#tasksgridmessage').html('Service Task was unable to be removed').fadeIn('fast', function() {
+                            setTimeout(function() {
+                                $('#tasksgridmessage').fadeOut('5000', function() {
+                                    $('#tasksgridmessage').html('');
+                                })
+                            }, 3000)
+                        });
+                    }
+                    $('#machines').jqGrid('setSelection', $('#machines').jqGrid('getGridParam', 'selrow'), true);
+                    return [true,''];
+
+                }
+            });
+        }
+
+        function removeCompleted(event, completedid) {
+            if (event.stopPropagation) {
+                event.stopPropagation();
+                event.preventDefault();
+            } else {
+                window.event.cancelBubble = true;
+                window.event.returnValue = false;
+            };
+
+            var csrf = jQuery("input[name=_csrf]").val();
+
+            $('#completed').delGridRow(completedid, {
+                reloadAfterSubmit: true,
+                top: 200,
+                left: 400,
+                closeAfterAdd: true,
+                modal: true,
+                width: 400,
+                caption: 'Remove Completed Service',
+                reloadAfterSubmit: true,
+                bSubmit: 'Remove',
+                url: jsContextPath + '/machinemaintenance/deletecompletedservice',
+                msg: 'Are you sure you want to remove this completed service?',
+                delData: {
+                    '_csrf': csrf
+                },
+                afterSubmit: function(reponsedata, requestparams) {
+                    var data = eval("(" + reponsedata.responseText + ")");
+                    if (data.success != 'true') {
+                        $('#completedgridmessage').html('Service was unable to be removed').fadeIn('fast', function() {
+                            setTimeout(function() {
+                                $('#completedgridmessage').fadeOut('5000', function() {
+                                    $('#completedgridmessage').html('');
+                                })
+                            }, 3000)
+                        });
+                    }
+                    return [true,''];
+                }
+            });
+        }
+
+        function removeScheduled(event, scheduleid) {
+            if (event.stopPropagation) {
+                event.stopPropagation();
+                event.preventDefault();
+            } else {
+                window.event.cancelBubble = true;
+                window.event.returnValue = false;
+            };
+
+            $('#scheduled').delGridRow(scheduleid, {
+                reloadAfterSubmit: true,
+                top: 200,
+                left: 400,
+                closeAfterAdd: true,
+                modal: true,
+                width: 400,
+                caption: 'Remove Scheduled Service',
+                reloadAfterSubmit: true,
+                bSubmit: 'Remove',
+                url: jsContextPath + '/machinemaintenance/deleteserviceschedule',
+                msg: 'Are you sure you want to remove this service schedule?',
+                afterSubmit: function(reponsedata, requestparams) {
+                    var data = eval("(" + reponsedata.responseText + ")");
+                    if (data.success == 'true') {
+                        machineGridReload();
+                    } else {
+                        $('#scheduledgridmessage').html('Schedule was unable to be removed').fadeIn('fast', function() {
+                            setTimeout(function() {
+                                $('#scheduledgridmessage').fadeOut('5000', function() {
+                                    $('#scheduledgridmessage').html('');
+                                })
+                            }, 3000)
+                        });
+                    }
+                    return [true,''];
+                }
+            });
+        }
+
+        function clearwelcomemessages() {
+            $('.servicewelcomemessage').hide();
+            $('#scheduleTabHeader, #scheduleGridWrapper').show();
+            $('#completedTabHeader, #completedGridWrapper').show();
+            $('#tasksTabHeader, #tasksGridWrapper').show();
+        }
+
+        function fetchMachineDetails() {
+            $('.serviceMachineSpecificsWrapper').hide();
+            var machinDetailsURL = jsContextPath + '/machinemaintenance/findservicemachinedetails?machineId=' + selectedmachineid;
+            $.ajax({
+                type: 'GET',
+                url: machinDetailsURL,
+                dataType: 'html',
+                success: function(msg) {
+                    var tmp = $.trim(msg);
+                    tmp = tmp.substr(0, 200); //get the top bit of page only .. to limit the damage of indexOf()
+                    if (tmp.indexOf('LOGIIN[PAGE]') > 1) {
+                        sessionTimeoutReload();
+                    } else {
+                        $('#machineDetailsHeader_content').html(msg);
+                        $('.serviceMachineSpecificsWrapper').slideDown();
+                    };
+                },
+                error: function(msg) {
+                    $('#machineDetailsHeader_content').html('There was a problem getting the details.');
+                    $('.serviceMachineSpecificsWrapper').slideDown();
+                }
+            });
+        }
+
+        function showschedule(id) {
+            $('#machinedetailsHeader').css('left','1000px');
+
+            sessionStorage.setItem("service:machineId", id);
+
+            //fetch machine details
+            fetchMachineDetails(id);
+
+            var icon = $('#machines').getRowData(id)['icon'];
+            $('#rigiconcontainer').html(icon);
+            $('#machinedetailsHeader h3').html('');
+            $('#machinedetailsHeader').show();
+            $('#machinedetailsHeader').animate({
+                'left': '5px'
+            }, 'slow', 'swing', function() {
+                var displayname = $('#machines').getRowData(id)['name'];
+                $('#machinedetailsHeader h3').html(displayname);
+            });
+            reloadCurrentGrid(id);
+        }
+
+        function handleSpanChange() {
+            if ($('#timespan').val() != 'range') {
+                $('#rangepicker').slideUp();
+                loadCompletedGrid(selectedmachineid);
+            } else {
+                $('#rangepicker').slideDown('fast', function() {
+                    loadCompletedGrid(selectedmachineid);
+                });
+            }
+        }
+
+        function handleDateChange() {
+            loadCompletedGrid(selectedmachineid);
+        }
+
+        function editSchedule(scheduleid) {
+            $('#scheduleServiceModal').jqm({
+                ajax: jsContextPath + '/machinemaintenance/showeditserviceschedule?scheduleId=' + scheduleid + '&machineId=' + selectedmachineid + '&ts=' + Date.now(),
+                trigger: '#editrig',
+                modal: 'true',
+                drag: 'true',
+                onLoad: checkForLoginPage
+            });
+            $('#scheduleServiceModal').jqmShow().draggable({ containment:'parent', handle:'.jqDrag' });
+        }
+
+        function editService(serviceid) {
+            window.location.href= jsContextPath + '/machinemaintenance/showeditcompletedservice?serviceId='+ serviceid +'&machineId=' + selectedmachineid + '&ts=' + Date.now();
+        }
+
+        function newServiceTask() {
+            $('#addEditServiceTaskModal').jqm({
+                ajax: jsContextPath + '/machinemaintenance/showAddServiceTask?machineId=' + selectedmachineid + '&ts=' + Date.now(),
+                trigger: '#editrig',
+                modal: 'true',
+                drag: 'true',
+                onLoad: checkForLoginPage,
+				onHide: function(hash) {
+					hash.w.hide();
+					hash.o.remove();
+					loadTasksGrid(selectedmachineid);
+				}
+            });
+            $('#addEditServiceTaskModal').jqmShow().draggable({ containment:'parent', handle:'.jqDrag' });
+        }
+
+        function editServiceTask(taskId) {
+            $('#addEditServiceTaskModal').jqm({
+                ajax: jsContextPath + '/machinemaintenance/showEditServiceTask?taskId=' + taskId + '&ts=' + Date.now(),
+                trigger: '#editrig',
+                modal: 'true',
+                drag: 'true',
+                onLoad: checkForLoginPage,
+				onHide: function(hash) {
+					hash.w.hide();
+					hash.o.remove();
+					loadTasksGrid(selectedmachineid);
+				}
+            });
+            $('#addEditServiceTaskModal').jqmShow().draggable({ containment:'parent', handle:'.jqDrag' });
+        }
+
+        function scheduleServiceItem() {
+            $('#scheduleServiceModal').jqm({
+                ajax: jsContextPath + "/machinemaintenance/showcreateserviceschedule?machineId=" + selectedmachineid + "&ts=" + Date.now(),
+                trigger: '#editrig',
+                modal: 'true',
+                drag: 'true',
+                onLoad:checkForLoginPage
+            });
+            $('#scheduleServiceModal').jqmShow().draggable({ containment:'parent',handle:'.jqDrag' });
+        }
+
+        function completeSchedule(scheduleid) {
+            window.location.href= jsContextPath + '/machinemaintenance/showcompleteserviceitem?scheduleId='+ scheduleid +'&machineId=' + selectedmachineid + '&ts=' + Date.now() + '&returnUrl=serviceHome';
+        }
+
+        function addSingleServiceItem() {
+            window.location.href= jsContextPath + '/machinemaintenance/showcompleteserviceitem?machineId=' + selectedmachineid + '&ts=' + Date.now() + '&returnUrl=serviceHome';
+        }
+
+        function syncOdoCallback() {
+            fetchMachineDetails();
+        }
+
+        function selecttab(ui) {
+            currentTab = ui.index;
+            reloadCurrentGrid(selectedmachineid);
+        }
+
+        function reloadCurrentGrid(id) {
+            if (currentTab === 0) {
+                loadShedulesGrid(id);
+            } else if (currentTab === 1) {
+                loadCompletedGrid(id);
+            } else if (currentTab === 2) {
+                loadTasksGrid(id);
+            }
+        };
+
+        function handleOidChange() {
+            reloadfleetselect(true, false);
+            machineGridReload();
+        }
+
+        function handleSearchChange() {
+            doSearch();
+        }
+        function handleServiceTypeChange() {
+            machineGridReload();
+        }
+
+        function handleScheduleStatusChange() {
+            machineGridReload();
+        }
+
+        function gridReload() {
+            machineGridReload();
+        }
+
+        function doSearch() {
+            if (timeoutHnd) {
+                clearTimeout(timeoutHnd);
+                timeoutHnd = setTimeout(machineGridReload, 500);
+            }
+        }
+
+        function buildMachineURL(fmt) {
+            var searchmask = escape($.trim($('#searchString').val()));
+            var urlstring = '/Portal';
+
+            if (fmt === 'grid') {
+                urlstring = urlstring + '/machinemaintenance/servicemachinesgrid?organisationId=' + $('#oid').val();
+            } else {
+                urlstring = urlstring + '/report/servicereports/scheduleReportData?orgCommonId=' + $('#oid').val();
+                urlstring = urlstring + '&reportType=' + fmt;
+            }
+
+            if ($('#searchString').val()) {
+                urlstring = urlstring + '&searchString=' + searchmask;
+            }
+
+            if ($('#servicehome_duestatus').val()) {
+                urlstring = urlstring + '&scheduleStatus=' + $('#servicehome_duestatus').val();
+            }
+
+            if ($('#servicehome_servicetype').val()){
+                urlstring = urlstring + '&serviceType=' + $('#servicehome_servicetype').val();
+            }
+            var pickedvehicles = $('#fleetId').val();
+            if (!pickedvehicles) {
+                passedvehicles = ''; //blank this it has served its purpose
+                //leave all vehicles in org
+            } else if (pickedvehicles === 'choose') {
+                //use machines passed from modal - not required here
+                urlstring = urlstring + '&vehicleIds=' + passedvehicles;
+            } else {
+                if (false) {
+                    urlstring = urlstring + '&fleetIds=' + pickedvehicles.join(",");
+                } else {
+                    urlstring = urlstring + '&fleetId=' + pickedvehicles;
+                }
+                passedvehicles = ''; //blank this it has served its purpose
+            }
+            return urlstring;
+        }
+
+        function loadShedulesGrid(machineid) {
+            if (machineid >= 1) {
+                clearwelcomemessages();
+                var urlstring = buildScheduledURL(machineid, 'grid');
+                $('#scheduledGridLoader').fadeOut();
+                $('#scheduled').setGridParam({
+                    datatype: 'xml',
+                    url: urlstring,
+                    page: 1
+                }).trigger('reloadGrid');
+            }
+        }
+
+        function loadTasksGrid(machineid) {
+            if (machineid >= 1) {
+                clearwelcomemessages();
+                var urlstring = buildTasksURL(machineid, 'grid');
+                $('#tasksGridLoader').fadeOut();
+                $('#tasks').setGridParam({
+                    datatype: 'xml',
+                    url: urlstring,
+                    page: 1
+                }).trigger('reloadGrid');
+            }
+        }
+
+        function buildTasksURL(machineid, fmt) {
+            var urlstring = '/Portal';
+
+            if (fmt === 'grid') {
+                urlstring = urlstring + '/machinemaintenance/findservicetasks?machineId=' + machineid;
+            }
+            if ($('#oid').val()) {
+                urlstring = urlstring + '&orgCommonId=' + $('#oid').val();
+            }
+
+            return urlstring;
+        }
+
+        function buildScheduledURL(machineid, fmt) {
+            var urlstring = '/Portal';
+
+            if (fmt === 'grid') {
+                urlstring = urlstring + '/machinemaintenance/findscheduledservice?machineId=' + machineid;
+            } else {
+                urlstring = urlstring + '/report/servicereports/scheduleReportData?vehicleId=' + machineid;
+                urlstring = urlstring + '&reportType=' + fmt;
+            }
+            if ($('#oid').val()) {
+                urlstring = urlstring + '&orgCommonId=' + $('#oid').val();
+            }
+
+            return urlstring;
+        }
+
+        function downloadMachinesFile(fmt) {
+            closeMenus();
+            var url = buildMachineURL(fmt);
+
+            var props = {
+              reportName: "Service Schedule",
+              reportType: fmt,
+              orgName: metrics.getFromSession("org.name"),
+              orgTimezone: metrics.getFromSession("org.timezone"),
+              scheduleStatus: metrics.getParameterByName("scheduleStatus", url) || null,
+              serviceType: metrics.getParameterByName("serviceType", url) || null,
+              fleetId: metrics.getParameterByName("fleetId", url) || null,
+              searchString: metrics.getParameterByName("searchString", url) || null
+            };
+
+            metrics.track(metrics.events.EXPORTED_REPORT, props);
+            window.location = url;
+        }
+
+        function gotoServiceReport() {
+            var url = jsContextPath + '/report/servicereports/show';
+            menuGotopage(url);
+        }
+
+        function downloadSchedulesFile(fmt) {
+            var url = buildScheduledURL(selectedmachineid, fmt);
+            window.location = url;
+        }
+
+        function downloadCompletedFile(fmt) {
+            var url = buildCompletedURL(selectedmachineid, fmt);
+            var props = {
+              reportName: "Service History",
+              reportType: fmt,
+              orgName: metrics.getFromSession("org.name"),
+              orgTimezone: metrics.getFromSession("org.timezone"),
+              vehicleId: metrics.getParameterByName("vehicleId", url) || null,
+              timspan: metrics.getParameterByName("timespan", url),
+              startDateTime: metrics.getParameterByName("startDateTime", url),
+              endDateTime: metrics.getParameterByName("endDateTime", url)
+            };
+
+            metrics.track(metrics.events.EXPORTED_REPORT, props);
+            window.location = url;
+        }
+
+        function loadCompletedGrid(machineid) {
+            if (machineid >= 1) {
+                clearwelcomemessages();
+                var urlstring = buildCompletedURL(machineid, 'grid');
+                $('#completedGridLoader').fadeOut();
+                $('#completed').setGridParam({
+                    datatype: 'xml',
+                    url: urlstring,
+                    page:1
+                }).trigger('reloadGrid');
+            }
+        }
+
+        function buildCompletedURL(machineid, fmt) {
+            var urlstring = '/Portal';
+            if (fmt === 'grid') {
+                urlstring = urlstring + '/machinemaintenance/findcompletedservices?machineId=' + machineid;
+            } else {
+                urlstring = urlstring + '/report/servicereports/serviceReportData?vehicleId=' + machineid;
+                urlstring = urlstring + '&reportType=' + fmt;
+            }
+
+            if ($('#oid').val()) {
+                urlstring = urlstring + '&orgCommonId=' + $('#oid').val();
+            }
+            var chosenstartdate = new Date($('#chosenStartDate').val());
+            var chosenenddate = new Date($('#chosenEndDate').val());
+            var timespan = $('#timespan').val();
+            var startdate = chosenstartdate.getFullYear() + ',' + (chosenstartdate.getMonth() + 1) + ',' + chosenstartdate.getDate() + ' 00:00:00';
+            var enddate = chosenenddate.getFullYear() + ',' + (chosenenddate.getMonth() + 1) + ',' + chosenenddate.getDate() + ' 23:59:59';
+            urlstring = urlstring + '&startDateTime='+ startdate + '&endDateTime=' + enddate + '&timespan=' + timespan;
+
+            return urlstring;
+        }
+
+        function downloadPDFService(event, reportid) {
+            if (event.stopPropagation) {
+                event.stopPropagation();
+                event.preventDefault();
+            } else {
+                window.event.cancelBubble = true;
+                window.event.returnValue = false;
+            };
+            var url = jsContextPath + '/report/servicereports/serviceSingleReportData?reportId=' + reportid;
+            url = url + '&reportType=PDF';
+            url = url + '&orgCommonId=' + $('#oid').val();
+            window.location = url;
+        }
+
+        function machineGridReload() {
+            var urlstring = buildMachineURL('grid');
+            $('#machines').setGridParam({
+                url: urlstring,
+                page: 1,
+                rowNum: ($('#servicehome_duestatus').val() == 'OVERDUE_DATE' || $('#servicehome_duestatus').val() == 'OVERDUE_EHUBOREADING' || $('#servicehome_duestatus').val() == 'OVERDUE_ENGINEHOUR') ? 99999 : 30,
+            }).trigger('reloadGrid');
+        }
+
+        function handleAddTaskLinkCallback() {
+            isClickOnLink = false;
+        }
+
+        function exportSchedulesViaEmail(format) {
+            closeMenus();
+            var url = buildMachineURL(format);
+            url = url + '&exportViaEmail=true';
+            var snackbar = document.getElementById("exportViaEmailSnackbar");
+            var snackbarText = document.getElementById("exportViaEmailSnackbarText");
+            var snackbarButton = document.getElementById("exportViaEmailSnackbarCloseButton");
+
+            $.ajax({
+                type: 'GET',
+                url: url,
+                dataType: 'json',
+                success: function(msg) {
+                    snackbarButton.className = "";
+                    snackbarText.innerHTML = "Schedule Report " + format + " will be emailed to you shortly";
+                    snackbar.className = "show";
+                    setTimeout(closeExportViaEmailSnackbar, 5000);
+                },
+                error: function(msg) {
+                    // generic failure
+                    snackbarButton.className = "snackbarErrorButton";
+                    snackbarText.innerHTML = "An error ocurred while generating Schedule Report " + format + ". Please try again later";
+
+                    // TODO handle case where report is still being generated?
+                    // snackbarText.innerHTML = "Schedule Report " + format + " is still being generated. Please be patient";
+
+                    snackbar.className = "show";
+                    setTimeout(closeExportViaEmailSnackbar, 10000);
+                }
+            });
+        }
+
+        function closeExportViaEmailSnackbar() {
+            var snackbar = document.getElementById("exportViaEmailSnackbar");
+            snackbar.className = snackbar.className.replace("show", "");
+        }
+
+        function resetMachineSelection() {
+        	$("#machines").jqGrid("resetSelection");
+        	$('#machinedetailsHeader').hide();
+			$('.serviceMachineSpecificsWrapper').hide();
+			$('#scheduled').jqGrid("clearGridData");
+			$('#completed').jqGrid("clearGridData");
+			$('#tasks').jqGrid("clearGridData");
+			$('#captionTasks').text('Tasks'); // remove task count
+			selectedmachineid = undefined;
+        }
+
+        function hasMachineInGrid(machineId) {
+        	var machines = $("#machines").jqGrid("getDataIDs");
+			for (i = 0; i < machines.length; i++) {
+				if (machines[i] === machineId) {
+					return true;
+				}
+			}
+			return false;
+        }
+
+</script>

@@ -1,0 +1,29 @@
+﻿#app {
+    padding-top: 10px;
+}
+
+#taskMgr {
+    padding: 50px 20px 0px 20px;
+}
+
+#app .btn {
+    outline: none;
+}
+
+#app .optionBtn {
+    border: none;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+#app .editBtn:hover {
+    color: #2aabd2;
+}
+
+#app .deleteBtn:hover {
+    color: #c12e2a;
+}
+
+#taskForm {
+    margin-top: 50px;
+}
